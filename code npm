@@ -1,0 +1,16 @@
+# Check your proxy settings
+npm config get proxy
+npm config get https-proxy
+
+# Reset proxy settings if needed
+npm config delete proxy
+npm config delete https-proxy
+
+# Clean npm cache
+npm cache clean --force
+
+# Update npm to the latest version
+npm install -g npm
+
+# Set the default npm registry
+npm config set registry https://registry.npmjs.org/
